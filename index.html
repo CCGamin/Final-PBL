@@ -1,91 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel = "stylesheet" href = "PBL.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Journey</title>
-    <style>
-        body {
-            background-color:darkslateblue; 
-        }
-
-        h1, h2, h3, h4, h5 {
-            text-align: center;
-            color: white;
-        }
-
-        p{
-            font-size: 20px;
-            color:whitesmoke; 
-        }
-
-        * {
-            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
-
-        nav ul {
-            display: flex;
-        }
-        nav ul ul {
-            display: none;
-            background-color: blueviolet;
-        }
-
-        nav ul ul a {
-            padding: 20px;   
-        }
-
-        .dropdown{
-            padding-left: 75px;
-            padding-right: 75px;
-        }
-
-        nav li:hover > ul{
-            display: block;
-            position: absolute;
-            margin-top: 130px;
-            
-        }
-        
-        ul {
-          list-style-type: none;
-          margin: 0 0 50px 0px;
-          padding: 0;
-          background-color: blueviolet;
-          position: sticky;
-          top: 0;
-        }
-
-        li {
-          float: left;
-          font-size: 25px;
-        }
-        
-        li a {
-          display: block;
-          color: white;
-          text-align: center;
-          text-decoration: none;
-          padding: 50px;
-        }
-        
-        li a:hover {
-          background-color: black;
-          text-decoration: underline;
-        }
-
-        .section {
-            padding-bottom: 400px;
-        }
-    </style>
+    <style></style>
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Me</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About Me</a></li>
         <li>
-            <a href="#class">My Classes</a>
+            <a href="Classes.html">My Classes</a>
             <ul>
                 <a href = "#freshman">Freshman Year</a>
                 <a href = "#sophomore">Sophomore Year</a>
@@ -106,7 +34,7 @@
             </ul>
         </li>
         <!-- <li><a href = ""></a></li> -->
-    </ul>
+        </ul>
 
     <h1 style = "font-size: 100px;">Welcome to my High School Journey!</h1>
     
@@ -114,99 +42,8 @@
         <section class = "section" id = "home">
             <h2>Click through the tabs to go through sections of my life!</h2>
         </section>
- 
-        <hr>
-
-        <section class = "section" id = "about">
-            <h2>About Me</h2>
-            <p>Hi! My name is Carl Chris (also known as CC, CDot, Admiral CC, Himothy Da 3rd, etc).</p>
-            <p>Here are some references photos if you may not recgonize me.</p>
-            <img src = "Me.avif">
-            <img src = "">
-            <p>This is my walkthrough for my entire highschool life (and my final project) as I will be graduating in exactly 11 days.</p>
-            <p>I am 17 years old. I currently live in Columbus, Ohio. My hobbies are playing the saxophone (and all the other instruments I play as well), playing Roblox, cooking, and sleeping.</p>
-            <p>This is my last "gift" (if u can call it that...) </p>
-        </section>
-
-        <hr>
-
-        <section class = "section" id = "class">
-            <h3 style = "font-size: 50px; color: white;">Brooke High School</h3>
-            <img src = "Old School.jpg">
-            
-            <img src = "Freshman.jpg">
-            
-            <p>Classes:</p>
-            <p>Period 1: Composition 9 / Intro to Computer Science (1 credit)</p>
-            <p> Period 2: Spanish 1</p>
-            <p>Period 3: Algebra 1 (I failed this class in 8th grade)</p>
-            <p>Period 4: Biology</p>
-            <p>Period 5 & Period 6: American History To 1890 & American Literature 1</p>
-            
-            <br>            
-            <img src = "Sophomore.webp">
-            <p>Classes:</p>
-            <p>Period 1: Spanish 2</p>
-            <p>Period 2 & Period 3: AP United States History and Literature 2</p>
-            <p>Period 4: Chemistry</p>
-            <p>Period 5: Python Graphics and Animation</p>
-            <p>Period 6: Geometry</p>
-            <br>
-            
-            <img src = "Junior.jpg">
-            <p>Classes:</p>
-            <p>Period 1: World History</p>
-            <p>Period 2: Spanish 3 Honors</p>
-            <p>Period 3: Algebra 2</p>
-            <p>Period 4: Ap English Language & Composition</p>
-            <p>Period 5: AP Physics 1</p>
-            <p>Period 6: AP Computer Science Principles</p>
-            <br>
-            
-            <h3 style = "font-size: 50px; color: white;">Horizon Science Academy Columbus</h3>
-            <img src = "">
-            <p id = "senior">Senior Year (Transfer Year)</p>
-            <img src = "Senior.jpg">
-            <p>Classes:</p>
-            <p>Period 1 & Period 2: Programming Capstone</p>
-            <p>Period 3: Math for Computer Science</p>
-            <p>Period 4: Strategic Entrepreneurship</p>
-            <p>Period 5: College & Career English</p>
-            <p>Period 6: Web Design HS (CTE)</p>
-            <p>Period 7: Band II: Intermediate Band</p>
-        </section>
-
-        <hr>
-
-        <section class = "section" id = "favorite">
-            <h3>My Favorite Teacher from Each Year</h3>
-            <h5>Freshman Year</h5>
-            <img src = "Lin.jpg" alt = "Bio Teach" id = "Bio">
-            <p>Ms. Lin's 4th period class was definietly the best class to be in freshman year. Constant experiements, memes, and fun ways to learn was always her thing. Especially in the OG room that she had on the 2nd floor (before she moved to the 4th floor). </p>
-
-            <h5>Sophomore Year</h5>
-            <img src = "" alt = "Geo Teach" id = "Geo">
-            <p></p>
-            <img src = "Worthy.jpg" alt = "Tech Teach 2" id = "Pyt">
-            <p>Ms. Worthy was NOT playing with us the first few months when us students met her. :sob emoji. However as the year went by and I got to know her more (and she became more lenient), she definietly deserves to be on my top 3 favorite IT teachers.</p>
-
-            <h5>Junior Year</h5>
-            <img src = "" alt = "English Teach" id = "Ela">
-            <p>Mr. Morton was one of those "I'm Chill if you're Chill" teachers and was definietly memorable as well. Although he cusses like a sailor (am I aloud to say this? wait he don't go there no more, and it was out of school anyways), he was definietly a good person to ask for advice, knowledge, or in my case a very COMPETITIVE person to workout with.</p>
-            <img src = "Oliver.jpg" alt = "Tech Teach" id = "It">
-            <p>Although strict on her detention policies (sob emoji again), and pairing me with Edison for most of the year (UGHHHHHHHHHHHHHHHHHH), Ms. Oliver was definietly someone I appreciated for helping me go through the hardest year ever (even if I did sleep a couple of times, but I mean I finished my work and extra credit sooooooo). OH! And THANK YOU ALWAYS for supporting me through my lifting meets.</p>
-
-            <h5>Senior Year</h5>
-            <img src = "" alt = "Tech Teach" id = "ITF">
-            <p>Ms. Pathan is like the 2nd mom of the school. "CARL, MINUS TWO FOR TALKING", ... 30 minutes later... "Do u want some candy?" (Granted, I do talk a lot in her class. But it's not MY fault :C).</p>
-
-        </section>
-
-        <hr> 
-    
-        <section class = "section" id = ""></section>
         
-        <hr>
+        <section class = "section" id = ""></section>
     </div>
 
     
